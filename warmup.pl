@@ -1,8 +1,8 @@
 %Rex Reynolds
-%Wish I had the foresight to take AI
+
 %4/19/2014
 
-% Works fine
+
 % Takes input of a positive Element, an un-empty list, and a positive
 % count.
 count(Element,[],0).
@@ -15,7 +15,7 @@ count(Element,[Variable|T],Number1) :-
 
 
 
-%Works fine
+
 %Takes an input of a positive Element, two Lists, and a Number.
 takeout(Element,[],[],0).
 takeout(Element,[Element|Tail1],Tail2,NumOccur):-
@@ -28,7 +28,7 @@ takeout(Element,[Head|Tail1],[Head|Tail2],Variable):-
 
 
 
-% Does not work
+
 % Takes an input of two lists, a positive element, and a number.
 putIn([],Element,0,[]).
 putIn(List1,Element,NumOccur,List2):-
@@ -38,7 +38,7 @@ putIn(List1,Element,NumOccur,List2):-
 
 
 
-%Does not work
+
 %Takes a positive element, two lists, and a number.
 deleteNum(Element,[],[],0).
 deleteNum(Element,[Head|Tail],List1,Variable):-
@@ -54,7 +54,7 @@ deleteNum(Element,[Head|Tail],List1,Variable):-
 
 
 
-%Does not work.
+
 %Takes two lists and two "sets".
 %Uses deleteNum in order to remove the group of fours from the list.
 %Uses count to group numbers of four.
